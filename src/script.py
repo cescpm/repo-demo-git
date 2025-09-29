@@ -22,8 +22,6 @@ if __name__ == "__main__":
         cropping_tuple = ast.literal_eval(input('Enter the coordinates where you want the image to be cut' \
                                 'Must fbe a 4-tuple: (left, upper, right, lower)'))
 
-        #(225,25,375,150)
-
         cropped_img = img.crop(cropping_tuple)
         cropped_img.show()
 
