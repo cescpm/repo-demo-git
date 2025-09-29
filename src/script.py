@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
         users_choice = input('Do you wish cropping the image this way? (Yes/No)')
 
-    
+    cropped_img.save(f'outputs/cropped_image_{cropping_tuple}.jpg')
 
 
 
