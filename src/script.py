@@ -9,3 +9,5 @@ if __name__ == "__main__":
 
     data = np.loadtxt('data/data.txt')
     print(f"NumPy detected shape: {data.shape}")
+
+    ####### Edició d'imatges #######
